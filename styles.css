@@ -1,0 +1,30 @@
+* {
+    font-family: "Helvetica Neue";
+}
+
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    gap: 0.6em;
+    list-style: none;
+    margin-left: 0;
+}
+
+li input[type="text"] {
+    width: 20em;
+}
+
+input:checked + input[type="text"]{
+    text-decoration: line-through;
+    opacity: 0.33;
+    font-style: italic;
+}
+
+button {
+    margin-right: 0.6em;
+}
